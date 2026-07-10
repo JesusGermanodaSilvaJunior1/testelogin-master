@@ -87,3 +87,53 @@ Requisitos:
         ◦ Mostre uma mensagem de boas-vindas com o nome do usuário logado.
         ◦ Tenha um botão de logout que destrua a sessão e volte para login.php.
 A entrega do teste será realizada no github.com https://github.com/JesusGermanodaSilvaJunior1/testelogin-master
+
+
+
+
+
+ Curriculo 
+ 
+# Maria Eduarda Araújo Dos Santos Teixeira
+
+**Idade:** 17 anos (Data de nascimento: 16/06/2009)  
+**Endereço:** Rua Santa Amélia, 199 - Belo Horizonte, MG - CEP 31920-480  
+**Telefone:** +55 31 98483-3153  
+**E-mail:** mariaeduardaaraujosteepd@gmail.com  
+
+---
+
+## Formação
+**Escola Estadual Presidente Dutra** *Ensino Médio — Belo Horizonte, MG (2024 - 2026)* Ensino Médio com foco prático em disciplinas de tecnologia, incluindo lógica de programação, desenvolvimento de sites para a internet, conceitos de redes e banco de dados.
+
+---
+
+## Experiência
+**Escola Estadual Presidente Dutra — Curso Técnico em Informática** *Março de 2026 – Atual* Criação de sistemas e sites durante as aulas práticas de informática da escola. Desenvolvimento de códigos em PHP para páginas dinâmicas, estilização com CSS e testes usando servidores locais.
+
+---
+
+## Projetos
+**TechHelp — Plataforma de Serviços Autônomos (Em andamento)** Desenvolvimento de um projeto de site na área de informática para conectar clientes e trabalhadores autônomos. Atuação na criação do sistema de cadastro e login utilizando PHP e MySQL, implementação do controle de segurança das sessões dos usuários e planejamento do feed com filtros por tags.
+
+---
+
+## Competências
+* Desenvolvimento Web (PHP, HTML5, CSS3)
+* Integração de Sistemas com Banco de Dados (MySQL)
+* Desenvolvimento de Páginas Responsivas (Web e Mobile)
+* Programação Orientada a Objetos (POO)
+* Design de Interface
+* Redes e Servidores (Apache / XAMPP)
+
+## Ferramentas
+* VS Code
+* XAMPP Control Panel
+* Lógica de Programação
+* Git e GitHub
+
+## Idiomas
+* **Inglês — Nível Médio:** Boa capacidade de leitura e interpretação de documentações técnicas e códigos de programação.
+
+## Cursos Complementares
+* Programação Orientada a Objetos (POO) — Fundação Bradesco
