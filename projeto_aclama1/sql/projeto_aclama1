@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS projeto_aclama1;
+USE projeto_aclama1;
+
+CREATE TABLE IF NOT EXISTS usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(200) NOT NULL
+);
+
+INSERT IGNORE INTO usuarios (username, password) VALUES ('maria eduarda', '1234');
+INSERT IGNORE INTO usuarios (username, password) VALUES ('Jesus Germano Lopes', '40028922cadastro');
+INSERT IGNORE INTO usuarios (username, password) VALUES ('teste', 'teste');
