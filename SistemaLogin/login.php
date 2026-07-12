@@ -78,3 +78,4 @@ if (isset($_SESSION['usuario'])) {
 
 </body>
 </html>
+// Alteração feita por Arthur
