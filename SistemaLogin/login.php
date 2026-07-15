@@ -13,7 +13,7 @@ if (isset($_SESSION['usuario'])) {
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta author" content="Arthur Lazaro">
+    <meta author" content="Arthur Lazaro Oliveira de Carvalho Bicalho">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Login</title>
