@@ -1,6 +1,7 @@
 <?php
 session_start();
 
+//Autor(Arthur Lazaro Oliveira de Carvalho Bicalho)
 
 if (!isset($_SESSION["usuario"])) {
     header("Location: login.php");
