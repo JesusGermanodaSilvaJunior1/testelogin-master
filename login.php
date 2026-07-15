@@ -37,25 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
 
-        .login-container {
-            background-color: #fff;
-            padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            max-width: 400px;
-        }
-    </style>
 </head>
 
 <body>
@@ -70,18 +52,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <form method="POST" action="login.php">
             <div class="mb-3">
                 <label for="usuario" class="form-label">Usuário</label>
-                <input type="text" name="usuario" id="usuario" class="form-control" placeholder="Digite seu usuário" required>
+                <input type="text" class="form-control" id="usuario" name="usuario" required>
             </div>
 
             <div class="mb-3">
-                <label for="senha" class="form-label">Senha</label>
-                <input type="password" name="senha" id="senha" class="form-control" placeholder="Digite sua senha" required>
+                <label for="exampleFormControlInput1" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Digite sua senha" required>
             </div>
-
-            <button type="submit" class="btn btn-primary w-100">Entrar</button>
+          <center><button type="submit" class="btn btn-primary">Entrar</button></center>
         </form>
     </div>
 
 </body>
 
 </html>
+
+
+
+
+
