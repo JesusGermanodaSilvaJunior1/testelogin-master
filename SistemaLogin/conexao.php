@@ -1,5 +1,7 @@
 <?php
 
+//Autor(Arthur Lazaro Oliveira de Carvalho Bicalho)
+
 $host = "localhost";
 $usuario = "root";
 $senha = "";
