@@ -26,6 +26,7 @@ if (isset($_POST['entrar'])) {
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Maria Eduarda Araújo dos Santos Teixeira">
     <title>Login</title>
     <link rel="stylesheet" href="styles.css">
 </head>
