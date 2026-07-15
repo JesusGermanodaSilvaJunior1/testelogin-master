@@ -11,6 +11,7 @@ if (!isset($_SESSION['usuario'])) {
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Maria Eduarda Araújo dos Santos Teixeira">
     <title>Dashboard</title>
     <link rel="stylesheet" href="styles.css">
 </head>
