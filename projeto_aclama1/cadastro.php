@@ -27,6 +27,7 @@ if (isset($_POST['cadastrar'])) {
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Maria Eduarda Araújo dos Santos Teixeira">
     <title>Criar Conta</title>
     <link rel="stylesheet" href="styles.css">
 </head>
