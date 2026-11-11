@@ -1,0 +1,101 @@
+:root {
+    --azul: #1f6f9f;
+    --azul-escuro: #17557a;
+    --texto: #1b1f23;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: var(--texto);
+    line-height: 1.5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 24px;
+}
+
+form {
+    width: 100%;
+    max-width: 380px;
+    padding: 32px;
+    border: 2px solid var(--azul-escuro);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+form h2 {
+    font-size: 1.6rem;
+}
+
+form br {
+    display: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border: 2px solid #999;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+    border-color: var(--azul);
+    outline: none;
+}
+
+input[type="submit"] {
+    margin-top: 8px;
+    background: var(--azul-escuro);
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus-visible {
+    background: var(--azul);
+}
+
+form p:not(.possui_conta) {
+    background: #fde8ec;
+    border-left: 5px solid var(--vermelho);
+    padding: 10px 12px;
+    font-size: 0.9rem;
+}
+
+.possui_conta {
+    display: inline;
+    color: #55606a;
+    font-size: 0.95rem;
+}
+
+.alternativa {
+    color: var(--azul-escuro);
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.alternativa:hover {
+    text-decoration: underline;
+}
