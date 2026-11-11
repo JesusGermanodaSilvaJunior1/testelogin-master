@@ -1,0 +1,5 @@
+/uploads/
+/config/conexao.php
+*.sql
+*.zip
+.env
