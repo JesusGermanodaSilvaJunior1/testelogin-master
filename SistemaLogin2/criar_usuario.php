@@ -1,5 +1,9 @@
-
 <?php
+/*
+ * Projeto: Zeta Transporte
+ * Desenvolvedor: Arthur Lázaro
+ * Ano: 2026
+ */
 require_once __DIR__ . "/config/conexao.php";
 
 $mensagem = "";
